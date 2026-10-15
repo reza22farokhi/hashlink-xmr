@@ -1,0 +1,149 @@
+
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="راهنمای استخراج مونرو، معرفی استخرها و ابزارهای استخراج XMR">
+  <title>هش‌لینک | HashLink XMR</title>
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Tahoma, Arial, sans-serif;
+      background: #101820;
+      color: #f3f6f8;
+      line-height: 1.9;
+    }
+    header {
+      padding: 28px 18px;
+      text-align: center;
+      background: #192832;
+      border-bottom: 3px solid #f26822;
+    }
+    header h1 { margin: 0; color: #ff8a45; }
+    nav { margin-top: 12px; }
+    a { color: #ffad75; }
+    nav a { margin: 0 8px; }
+    main { max-width: 850px; margin: auto; padding: 20px; }
+    .hero, .card {
+      background: #1b2a35;
+      padding: 22px;
+      border-radius: 14px;
+      margin: 18px 0;
+    }
+    .hero { border: 1px solid #425360; }
+    h2 { color: #ff9b5e; }
+    .button {
+      display: inline-block;
+      background: #f26822;
+      color: white;
+      padding: 10px 18px;
+      margin: 6px 4px;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .secondary { background: #344955; }
+    .notice { color: #c6d2d9; font-size: 14px; }
+    footer {
+      text-align: center;
+      padding: 24px;
+      color: #c6d2d9;
+      background: #192832;
+    }
+    button {
+      padding: 8px 12px;
+      border-radius: 8px;
+      border: 1px solid #ff8a45;
+      background: transparent;
+      color: white;
+      font-size: 15px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>HashLink XMR | هش‌لینک</h1>
+    <p>راهنمای شروع استخراج مونرو</p>
+    <button onclick="toggleLanguage()">English / فارسی</button>
+    <nav>
+      <a href="#start">شروع</a>
+      <a href="#pools">استخرها</a>
+      <a href="#tools">ابزارها</a>
+      <a href="#faq">سؤالات متداول</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <h2 data-fa="به دنیای استخراج مونرو خوش آمدید"
+          data-en="Welcome to Monero Mining">به دنیای استخراج مونرو خوش آمدید</h2>
+      <p data-fa="راهنمایی ساده برای آشنایی با استخراج XMR، انتخاب استخر و ابزارهای معتبر."
+         data-en="A simple guide to XMR mining, pool selection and trusted tools.">
+         راهنمایی ساده برای آشنایی با استخراج XMR، انتخاب استخر و ابزارهای معتبر.</p>
+      <a class="button" href="https://www.getmonero.org/get-started/mining/">راهنمای رسمی مونرو</a>
+      <a class="button secondary" href="#pools">مشاهده استخرها</a>
+    </section>
+
+    <section id="start" class="card">
+      <h2 data-fa="چطور شروع کنم؟" data-en="How do I start?">چطور شروع کنم؟</h2>
+      <ol>
+        <li data-fa="درباره استخراج و هزینه برق تحقیق کنید."
+            data-en="Learn about mining and electricity costs.">درباره استخراج و هزینه برق تحقیق کنید.</li>
+        <li data-fa="کیف پول امن و مناسب مونرو انتخاب کنید."
+            data-en="Choose a secure Monero wallet.">کیف پول امن و مناسب مونرو انتخاب کنید.</li>
+        <li data-fa="با راهنمای رسمی، روش استخراج مناسب را بررسی کنید."
+            data-en="Use the official guide to choose a mining method.">با راهنمای رسمی، روش استخراج مناسب را بررسی کنید.</li>
+      </ol>
+    </section>
+
+    <section id="pools" class="card">
+      <h2 data-fa="استخرهای استخراج مونرو" data-en="Monero mining pools">استخرهای استخراج مونرو</h2>
+      <p data-fa="پیش از انتخاب، کارمزد، حداقل پرداخت و شرایط هر استخر را بررسی کنید."
+         data-en="Check each pool's fees, payout threshold and terms before joining.">
+         پیش از انتخاب، کارمزد، حداقل پرداخت و شرایط هر استخر را بررسی کنید.</p>
+      <p><a class="button" href="https://miningpoolstats.stream/monero">مقایسه استخرها</a></p>
+      <p><a href="https://xmr.nanopool.org/">Nanopool XMR</a></p>
+      <p><a href="https://hashvault.pro/monero/">HashVault XMR</a></p>
+      <p class="notice">این لینک‌ها صرفاً برای اطلاع‌رسانی هستند؛ هیچ همکاری یا کمیسیون رسمی تأیید نشده است.</p>
+    </section>
+
+    <section id="tools" class="card">
+      <h2 data-fa="ابزارهای معتبر" data-en="Trusted tools">ابزارهای معتبر</h2>
+      <p><a href="https://github.com/xmrig/xmrig">XMRig در GitHub</a></p>
+      <p><a href="https://www.getmonero.org/get-started/mining/">راهنمای رسمی استخراج مونرو</a></p>
+      <p><a href="https://docs.getmonero.org/interacting/mining/">مستندات استخراج مونرو</a></p>
+    </section>
+
+    <section id="faq" class="card">
+      <h2 data-fa="سؤالات متداول" data-en="Frequently asked questions">سؤالات متداول</h2>
+      <h3 data-fa="آیا درآمد تضمین شده است؟" data-en="Is income guaranteed?">آیا درآمد تضمین شده است؟</h3>
+      <p data-fa="خیر. درآمد به سخت‌افزار، هزینه برق، سختی شبکه و قیمت مونرو بستگی دارد."
+         data-en="No. Earnings depend on hardware, electricity costs, network difficulty and XMR price.">
+         خیر. درآمد به سخت‌افزار، هزینه برق، سختی شبکه و قیمت مونرو بستگی دارد.</p>
+      <h3 data-fa="آیا این سایت کمیسیون دریافت می‌کند؟" data-en="Does this site earn commissions?">آیا این سایت کمیسیون دریافت می‌کند؟</h3>
+      <p data-fa="در حال حاضر هیچ برنامه همکاری یا درآمد خودکاری تأیید نشده است."
+         data-en="No affiliate program or automated earnings has been verified yet.">
+         در حال حاضر هیچ برنامه همکاری یا درآمد خودکاری تأیید نشده است.</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>HashLink XMR — راهنمای مستقل استخراج مونرو</p>
+    <p class="notice">این سایت وابسته به پروژه رسمی Monero نیست و سود استخراج را تضمین نمی‌کند.</p>
+  </footer>
+
+  <script>
+    let english = false;
+    function toggleLanguage() {
+      english = !english;
+      document.documentElement.lang = english ? "en" : "fa";
+      document.documentElement.dir = english ? "ltr" : "rtl";
+      document.querySelectorAll("[data-fa]").forEach(function(el) {
+        el.textContent = english ? el.dataset.en : el.dataset.fa;
+      });
+    }
+  </script>
+</body>
+</html>
